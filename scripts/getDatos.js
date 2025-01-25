@@ -1,5 +1,5 @@
 // URL base de la API
-const baseURL = 'http://localhost:8080';
+const baseURL = 'https://screenmatchfrasesbackend.onrender.com/';
 
 export default function getDatos(endpoint) {
     return fetch(`${baseURL}${endpoint}`)
